@@ -48,6 +48,13 @@ def normalize_dataframe(df) -> object:
     if "raw_code" not in df.columns:
         df["raw_code"] = df["code"].copy() if "code" in df.columns else None
 
+    # DataFrame.apply(axis=1) can return a DataFrame instead of a Series when
+    # there are no rows. Assign the expected empty Series explicitly so the
+    # output schema is stable for empty inputs as well.
+    if df.empty:
+        df["normalized_code"] = pd.Series(index=df.index, dtype="object")
+        return df
+
     df["normalized_code"] = df.apply(
         lambda row: normalize_code(row.get("raw_code") or row.get("code"), row.get("code_type")),
         axis=1,
