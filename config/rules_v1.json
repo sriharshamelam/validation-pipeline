@@ -1,0 +1,36 @@
+{
+  "ruleset_version": "rules-v1",
+  "description": "Default validation ruleset v1",
+  "rules": [
+    {
+      "rule_code": "REQUIRED_FIELDS",
+      "enabled": true,
+      "severity": "ERROR",
+      "parameters": {}
+    },
+    {
+      "rule_code": "UNKNOWN_CODE",
+      "enabled": true,
+      "severity": "ERROR",
+      "parameters": {}
+    },
+    {
+      "rule_code": "EFFECTIVE_DATE",
+      "enabled": true,
+      "severity": "ERROR",
+      "parameters": {}
+    },
+    {
+      "rule_code": "DEPRECATED_CODE",
+      "enabled": true,
+      "severity": "WARNING",
+      "parameters": {}
+    },
+    {
+      "rule_code": "DUPLICATE_EVENT",
+      "enabled": true,
+      "severity": "ERROR",
+      "parameters": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+source_record_id,source_system,code_type,code,event_date
+EC001,ERP,country,IN,2026-01-15
+EC002,ERP,country,ZZ,2026-01-15
+EC003,ERP,product_category,LEGACY,2025-06-15
+EC004,ERP,product_category,ENDCAT,2026-01-15
+EC005,ERP,product_category,FUTCAT,2026-01-15
+EC006,ERP,country,IN,2020-01-01
+EC007,ERP,product_category,ENDCAT,2024-12-31
+EC008,ERP,country,,2026-01-15
+,ERP,country,IN,2026-01-15
+EC010,,country,US,2026-01-15
+EC011,ERP,country,IN,
+EC012,ERP,country,IN,not-a-date
+EC013,ERP,country,IN,2026-01-15
+EC014,ERP,country,in,2026-01-15
+EC015,ERP,country, GB ,2026-01-15
+EC016,ERP,INVALID_TYPE,IN,2026-01-15
+EC017,ERP,product_category,IN,2026-01-15
+EC018,ERP,product_category,OLD,2021-06-15
+EC019,ERP,country,,2026-01-15
+EC020,,country,BADCODE,invalid-date

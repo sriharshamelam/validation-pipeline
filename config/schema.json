@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "input_schema": {
+    "required_columns": ["source_record_id", "source_system", "code_type", "code", "event_date"],
+    "column_types": {
+      "source_record_id": "string",
+      "source_system": "string",
+      "code_type": "string",
+      "code": "string",
+      "event_date": "date"
+    }
+  },
+  "reference_schema": {
+    "required_columns": ["code_type", "code", "description", "lifecycle_status", "valid_from"],
+    "optional_columns": ["valid_to", "replacement_code"]
+  },
+  "normalization": {
+    "uppercase_code_types": ["country", "product_category", "currency", "language"],
+    "strip_whitespace": true
+  }
+}

@@ -1,0 +1,14 @@
+code_type,code,description,lifecycle_status,valid_from,valid_to,replacement_code
+product_category,ELEC,Electronics,ACTIVE,2020-01-01,,
+product_category,FURN,Furniture,ACTIVE,2020-01-01,,
+product_category,FOOD,Food & Beverage,ACTIVE,2020-01-01,,
+product_category,CLTH,Clothing,ACTIVE,2020-01-01,,
+product_category,BOOK,Books & Media,ACTIVE,2020-01-01,,
+product_category,HLTH,Health & Beauty,ACTIVE,2020-01-01,,
+product_category,SPORT,Sports & Outdoors,ACTIVE,2020-01-01,,
+product_category,AUTO,Automotive,ACTIVE,2020-01-01,,
+product_category,LEGACY,Legacy Products (pre-2024),DEPRECATED,2020-01-01,2025-12-31,ELEC
+product_category,OLD,Old Category (pre-2022),DEPRECATED,2018-01-01,2022-12-31,ELEC
+product_category,NEWCAT,New Category,ACTIVE,2024-01-01,,
+product_category,FUTCAT,Future Category,ACTIVE,2027-01-01,,
+product_category,ENDCAT,End-of-life Category,ACTIVE,2020-01-01,2024-12-31,

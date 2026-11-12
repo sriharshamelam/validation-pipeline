@@ -1,0 +1,11 @@
+source_record_id,source_system,code_type,code,event_date
+VER001,SYS,product_category,LEGACY,2025-06-15
+VER002,SYS,product_category,NEWCAT,2025-06-15
+VER003,SYS,product_category,ELEC,2025-06-15
+VER004,SYS,product_category,FUTCAT,2026-06-15
+VER005,SYS,country,IN,2026-01-15
+VER006,SYS,product_category,LEGACY,2024-01-15
+VER007,SYS,product_category,NEWCAT,2024-01-15
+VER008,SYS,country,VN,2025-06-15
+VER009,SYS,product_category,OLD,2021-06-15
+VER010,SYS,product_category,ENDCAT,2024-12-31

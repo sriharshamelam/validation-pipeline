@@ -1,0 +1,18 @@
+[project]
+name = "data-quality-validation-platform"
+version = "1.0.0"
+requires-python = ">=3.12"
+description = "A production-style Data Quality Validation Platform"
+
+[tool.ruff]
+line-length = 120
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--tb=short -v"
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["tests/*", "*/migrations/*"]
