@@ -286,7 +286,7 @@ def render(db_ok: bool) -> None:
                         st.markdown("**Violated Rules & Messages:**")
                         if rec_issues:
                             for iss in rec_issues:
-                                st.error(
+                                st.markdown(
                                     f"❌ **{iss.get('message')}**<br>"
                                     f"<small>Observed: <code>{iss.get('observed_value')}</code> | Expected: <code>{iss.get('expected_value')}</code></small>",
                                     unsafe_allow_html=True,
